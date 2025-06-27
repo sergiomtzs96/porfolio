@@ -8,7 +8,11 @@
         scrollbar-width: none;
     }
 
-    .scrollbar-none::-webkit-scrollbar {
-        display: none;
+
+    .scrollbar-none {
+      -ms-overflow-style: none; /* IE y Edge */
+      scrollbar-width: none;    /* Firefox */
     }
-}
+    .scrollbar-none::-webkit-scrollbar {
+      display: none;
+    }

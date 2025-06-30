@@ -50,16 +50,17 @@
                         <li> <a href="#experience"
                                 class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Experience</a>
                         </li>
-                        <li> <a href="#"
-                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Marketplace</a>
+                        <li> <a href="#education"
+                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Education</a>
                         </li>
-                        <li> <a href="#"
-                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Features</a>
+                        <li> <a href="#aboutMe"
+                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">About
+                                Me</a>
                         </li>
-                        <li> <a href="#"
-                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Team</a>
+                        <li> <a href="#skills"
+                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Skills</a>
                         </li>
-                        <li> <a href="#"
+                        <li> <a href="#contact"
                                 class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Contact</a>
                         </li>
                     </ul>
@@ -69,7 +70,7 @@
     </header>
     <main>
         <!--Portada-->
-        <section class="flex flex-row justify-between items-center px-20 py-10">
+        <section id="inicio" class="flex flex-row justify-between items-center px-20 py-10">
             <div class="flex flex-col items-start p-8">
                 <div class="text-start">
                     <h6 class="text-gray-500 text-2xl">Hola, soy</h6>
@@ -96,8 +97,9 @@
                     </a>
                 </div>
                 <div class="mt-11 justify-between space-x-13 ms-30 md:ms-20">
-                    <a href="#" class="text-white border rounded-lg p-2 bg-orange-500 hover:bg-gray-700">Contrátame</a>
-                    <a href="#"
+                    <a href="#contact"
+                        class="text-white border rounded-lg p-2 bg-orange-500 hover:bg-gray-700">Contrátame</a>
+                    <a href="./assets/CV Sergio 2025.pdf" download
                         class="text-white border rounded-lg p-2 hover:bg-gray-100 hover:text-orange-500">Download CV</a>
                 </div>
                 <div class="flex flex-row mt-14 ms-14 bg-stone-900 p-4 rounded-lg">
@@ -134,13 +136,14 @@
                     </p>
                 </div>
                 <div id="experience-grid"
-                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-x-4 gap-y-6 mt-10 mx-auto max-w-screen-xl transition-all duration-700">
+                    class="flex flex-row relative place-items-start p-50 gap-x-4 gap-y-6 mt-10 mx-auto max-w-screen-xl transition-all duration-700 hover:flex-col hover:place-items-center">
                     <div
-                        class="flex flex-col text-center items-center border bg-stone-900 rounded-lg w-72 h-85 p-5 hover:w-full transition-all duration-700 ease-in-out">
-                        <img src="./assets/empresas/ahorramas.png" alt="Grupo" class="w-40">
-                        <h6 class="text-orange-500 text-2xl">Ahorramás</h6>
-                        <i class="text-gray-500 text-0xl">07/2024 - Actualmente</i>
-                        <p class="text-gray-400 text-justify overflow-hidden">Como reponedor, desarrollo una amplia
+                        class="group flex flex-col text-center items-center rounded-lg w-72 h-30 p-5 hover:h-auto  transition-all duration-700 ease-in-out hover:relative hover:bg-stone-950 hover:w-full">
+                        <img src="./assets/empresas/ahorramas.png" alt="Grupo" class="w-32">
+                        <h6 class="text-orange-500 mt-11 group-hover:mt-0">Ahorramás</h6>
+                        <i class="hidden group-hover:block text-gray-500 text-0xl">07/2024 - Actualmente</i>
+                        <p class="hidden group-hover:block text-gray-400 text-justify overflow-hidden">Como reponedor,
+                            desarrollo una amplia
                             variedad de tareas esenciales para el correcto funcionamiento de la tienda. Me encargo de la
                             reposición continua de productos en estanterías, garantizando una correcta rotación del
                             stock y el mantenimiento del orden y la limpieza en las distintas secciones.
@@ -155,10 +158,10 @@
                             laboral.</p>
                     </div>
                     <div
-                        class="flex flex-col text-center items-center border bg-stone-900 rounded-lg w-72 h-85 p-5 hover:w-full transition-all duration-700 ease-in-out">
+                        class="group flex flex-col text-center items-center rounded-lg w-72 h-30 p-5 hover:h-auto transition-all duration-700 ease-in-out hover:relative hover:bg-stone-950 hover:w-full">
                         <img src="./assets/empresas/ctt.png" alt="Grupo" class="w-32">
-                        <h6 class="text-orange-500">CTT</h6>
-                        <i class="text-gray-500 text-0xl">03/2024 - 06/2024</i>
+                        <h6 class="text-orange-500 mt-4 group-hover:mt-0">CTT</h6>
+                        <i class="hidden group-hover:block text-gray-500 text-0xl">03/2024 - 06/2024</i>
                         <p class="text-gray-400 text-justify overflow-hidden">Durante mi etapa en CTT, trabajé como
                             repartidor de paquetería en la ciudad de Almería. Mi principal función consistía en la
                             recogida, organización y entrega de paquetes utilizando una furgoneta de empresa, siguiendo
@@ -180,10 +183,10 @@
                             siempre una actitud profesional y resolutiva frente a los retos diarios del reparto.</p>
                     </div>
                     <div
-                        class="flex flex-col text-center items-center border bg-stone-900 rounded-lg w-72 h-85 p-5 hover:w-full transition-all duration-700 ease-in-out">
+                        class="group flex flex-col text-center items-center rounded-lg w-72 h-30 p-5 hover:h-auto transition-all duration-700 ease-in-out hover:relative hover:bg-stone-950 hover:w-full">
                         <img src="./assets/empresas/amazon.svg" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Amazon</h6>
-                        <i class="text-gray-500 text-0xl">10/2023 - 03-2024</i>
+                        <i class="hidden group-hover:block text-gray-500 text-0xl">10/2023 - 03-2024</i>
                         <p class="text-gray-400 text-justify overflow-hidden">En mi puesto como repartidor en Amazon
                             Logistics he formado parte de un equipo logístico altamente estructurado, siendo responsable
                             del transporte y entrega de paquetes en la provincia de Almería mediante vehículo asignado.
@@ -206,10 +209,10 @@
                         </p>
                     </div>
                     <div
-                        class="flex flex-col text-center items-center border bg-stone-900 rounded-lg w-72 h-85 p-5 hover:w-full transition-all duration-700 ease-in-out">
+                        class="group flex flex-col text-center items-center rounded-lg w-72 h-30 p-5 hover:h-auto transition-all duration-700 ease-in-out hover:relative hover:bg-stone-950 hover:w-full">
                         <img src="./assets/empresas/correos.png" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Correos</h6>
-                        <i class="text-gray-500 text-0xl">08/2023 - 09/2023</i>
+                        <i class="hidden group-hover:block text-gray-500 text-0xl">08/2023 - 09/2023</i>
                         <p class="text-gray-400 text-justify overflow-hidden">Como repartidor en Correos, empresa
                             pública referente en el servicio postal en España, he desempeñado tareas de distribución de
                             correspondencia y paquetería ligera por distintas zonas de Almería, utilizando vehículo de
@@ -231,10 +234,10 @@
                             documentación entregada, elementos clave dentro de un servicio público como Correos.</p>
                     </div>
                     <div
-                        class="flex flex-col text-center items-center border bg-stone-900 rounded-lg w-72 h-85 p-5 hover:w-full transition-all duration-700 ease-in-out">
+                        class="group flex flex-col text-center items-center rounded-lg w-72 h-30 p-5 hover:h-auto transition-all duration-700 ease-in-out hover:relative hover:bg-stone-950 hover:w-full">
                         <img src="./assets/empresas/mrw.png" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">MRW</h6>
-                        <i class="text-gray-500 text-0xl">02/2022 - 08/2023</i>
+                        <i class="hidden group-hover:block text-gray-500 text-0xl">02/2022 - 08/2023</i>
                         <p class="text-gray-400 text-justify overflow-hidden">En MRW, empresa especializada en
                             mensajería urgente y logística a nivel nacional, he trabajado como repartidor de última
                             milla, encargado del reparto diario de paquetes y documentación en la zona de Roquetas de
@@ -256,10 +259,10 @@
                             permitió integrarme con fluidez en un modelo logístico moderno y altamente digitalizado.</p>
                     </div>
                     <div
-                        class="flex flex-col text-center items-center border bg-stone-900 rounded-lg w-72 h-85 p-5 hover:w-full transition-all duration-700 ease-in-out">
+                        class="group flex flex-col text-center items-center rounded-lg w-72 h-30 p-5 hover:h-auto transition-all duration-700 ease-in-out hover:relative hover:bg-stone-950 hover:w-full">
                         <img src="./assets/empresas/amazon.svg" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Amazon</h6>
-                        <i class="text-gray-500 text-0xl">06/2021 - 02/2022</i>
+                        <i class="hidden group-hover:block text-gray-500 text-0xl">06/2021 - 02/2022</i>
                         <p class="text-gray-400 text-justify overflow-hidden">Mi experiencia laboral en Amazon marcó el
                             inicio de mi trayectoria en el ámbito de la logística y distribución de última milla. Este
                             fue mi primer empleo como repartidor, donde aprendí desde cero los procesos esenciales de
@@ -286,13 +289,13 @@
 
         <!--Educación-->
 
-        <section class="flex flex-col justify-center text-center pt-10 mr-80 ml-80">
+        <section id="education" class="flex flex-col justify-center text-center pt-10 mr-80 ml-80">
             <h1 class="text-gray-300 font-bold text-4xl">Education</h1>
             <p class="text-gray-400"> Lorem ipsum </p>
             <div class="relative border-l border-orange-500 pl-6 ml-4 space-y-10 mt-10">
                 <!-- Evento 1 -->
                 <div class="relative">
-                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/icons/education.svg" alt="education" class="w-10"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500">Educación Secundaria Obligatoria</h3>
@@ -303,7 +306,7 @@
 
                 <!-- Evento 2 -->
                 <div class="relative">
-                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/icons/education.svg" alt="education" class="w-10"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500 text-center">Bachillerato</h3>
@@ -314,7 +317,7 @@
 
                 <!-- Evento 3 -->
                 <div class="relative">
-                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/icons/education.svg" alt="education" class="w-10"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500 text-center">Grado Superior en Desarrollo de
@@ -325,7 +328,7 @@
                 </div>
                 <!-- Evento 4 -->
                 <div class="relative">
-                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/icons/education.svg" alt="education" class="w-10"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500 text-center">Grado Superior en Desarrollo de
@@ -339,36 +342,43 @@
 
         <!--Acerca de mí-->
 
-        <section class="flex flex-col justify-center text-center pt-10">
+        <section id="aboutMe" class="flex flex-col justify-center text-center pt-10">
             <h1 class="text-gray-300 font-bold text-4xl">About Me</h1>
             <p class="text-gray-400"> Lorem ipsum </p>
             <div
-                class="grid grid-cols-2 flex flex-row justify-center items-center place-items-center gap-x-10 gap-y-6 mt-10 mx-auto max-w-screen-xl">
+                class="grid grid-cols-2 justify-center items-center place-items-center gap-x-10 gap-y-6 mt-10 mx-auto max-w-screen-xl">
                 <div>
                     <img src="./assets/sergio.png" alt="Sergio"
                         class="w-[400px] object-cover mask-radial-at-center mark-radial-from-50% mask-radial-to-70% brightness-200 hover:scale-200 hover:transition duration-300">
                 </div>
                 <div class="text-right">
-                    <p class="text-gray-400 w-85 text-justify">Contrary to popular belief, Lorem Ipsum is not simply
-                        random text. It has roots
-                        in
-                        a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-                        McClintock,
-                        a
-                        Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
-                        words,
-                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
-                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-                        1.10.33
-                        of
-                        "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-                        This
-                        book
-                        is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
-                        Lorem
-                        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <p class="text-gray-400 w-150 text-justify">Mi nombre es Sergio Martínez y vivo en Sevilla la Nueva,
+                        Madrid. Soy una persona creativa, trabajadora y con una gran pasión por la tecnología. Siempre
+                        he tenido curiosidad por cómo funcionan las cosas, y fue esa misma curiosidad la que me llevó al
+                        mundo de la programación, donde he encontrado no solo una vocación, sino un camino lleno de
+                        retos y oportunidades para crecer.
+
+                        He cursado la ESO, el Bachillerato y he completado la FP Superior de Desarrollo de Aplicaciones
+                        Web. Actualmente, estoy cursando el segundo grado superior, el de Desarrollo de Aplicaciones
+                        Multiplataforma, lo que me está permitiendo formarme de manera integral como desarrollador full
+                        stack. Mi objetivo es adquirir una base sólida en todas las áreas posibles y mantenerme siempre
+                        actualizado, ya que en este sector lo más importante es nunca dejar de aprender.
+
+                        Durante mi formación, he trabajado en diversos proyectos, entre ellos, el desarrollo de este
+                        portafolio y una tienda online de entradas de eventos realizada durante mis prácticas en una
+                        empresa de Madrid. Aunque aún no he trabajado de forma profesional en el sector, estoy preparado
+                        y motivado para dar el siguiente paso y comenzar mi carrera en el mundo del desarrollo.
+
+                        Soy una persona inquieta por naturaleza, con muchas ideas y proyectos personales que iré
+                        llevando a cabo poco a poco. Me encanta aprender cosas nuevas —no solo de tecnología— y tengo
+                        otras pasiones como el deporte, la historia, los videojuegos y, curiosamente, innovar en la
+                        cocina, donde también me gusta experimentar y crear.
+
+                        Mi meta a corto y medio plazo es seguir creciendo profesionalmente, alcanzar una estabilidad
+                        laboral que me permita desarrollar una vida tranquila y continuar evolucionando en lo que más me
+                        apasiona: construir soluciones digitales que generen impacto real.</p>
                     <div class="pt-5 text-center">
-                        <a href="#"
+                        <a href="./assets/CV Sergio 2025.pdf" download
                             class="text-white bg-orange-500 p-2 rounded-lg hover:bg-gray-700 hover:text-orange-500">Download
                             CV</a>
                     </div>
@@ -378,7 +388,7 @@
 
         <!--Habilidades-->
 
-        <section class="relative">
+        <section id="skills" class="relative">
             <button id="scrollLeftBtn"
                 class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-20 rounded-full hover:scale-x-110 hover:scale-y-110 ml-120">
                 <img src="./assets/left.svg" alt="left" class="w-5">
@@ -591,21 +601,121 @@
 
         <section class="flex flex-col justify-center text-center pt-10">
             <h1 class="text-gray-300 font-bold text-4xl">Proyects</h1>
+            <div class="place-items-center mt-10">
+                <img src="./assets/pantallazo eventrandom.png" alt="eventRandom"
+                    class="h-65 w-85 brightness-90 rounded-lg drop-shadow-gray-700-x1/50 hover:transform hover:scale-x-110 hover:scale-y-110 duration-500">
+            </div>
         </section>
 
         <!--Contacto-->
 
-        <section class="flex flex-col justify-center text-center pt-10">
+        <section id="contact" class="flex flex-col relative justify-center text-center pt-10">
             <h1 class="text-gray-300 font-bold text-4xl">Contact me</h1>
             <p class="text-gray-400">Cultivating Connections: Reach Out And Connect With Me</p>
-            <form action="">
+            <form action="" class="flex flex-col place-items-center relative">
+                <div class="grid grid-cols-2 mt-10 gap-10 w-300">
+                    <div class="grid col-1 col-span-1">
+                        <label for="name" class="text-gray-300">Name</label>
+                        <input type="text" placeholder="Name"
+                            class="rounded-lg bg-gray-800 p-2 text-center placeholder:text-gray-400">
+                        <br>
+                        <div class="flex flex-row gap-10 text-center justify-center w-full">
+                            <div class="flex flex-col w-16">
+                                <label for="prefijo" class="text-white">Prefijo</label>
+                                <select name="prefijo" id="prefijo"
+                                    class="rounded-lg bg-gray-800 p-2 text-center text-gray-400">
+                                    <option value="">Prefijo</option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col w-full">
+                                <label for="phone" class="text-white">Phone Number</label>
+                                <input type="number" placeholder="Phone Number" max="9" min="0" maxlength=""
+                                    class="rounded-lg bg-gray-800 p-2 text-center placeholder:text-gray-400 ">
+                            </div>
+                        </div>
+                        <br>
+                        <label for="services" class="text-gray-300">Service of Interest</label>
+                        <select name="services" id="services"
+                            class="rounded-lg bg-gray-800 p-2 text-center text-gray-400">
+                            <option value="" class="text-gray-300">Select a service</option>
+                            <option value="frontend web" class="text-gray-300">Frontend Web</option>
+                            <option value="backend web" class="text-gray-300">Backend Web</option>
+                            <option value="fullstack web" class="text-gray-300">Fullstack Web</option>
+                            <option value="mobile app" class="text-gray-300">Mobile App</option>
+                            <option value="other" class="text-gray-300">Other (specify in details)</option>
+                        </select>
+                    </div>
+                    <div class="grid col-1 col-span-1">
+                        <label for="email" class="text-gray-300">Email</label>
+                        <input type="email" placeholder="Email"
+                            class="rounded-lg bg-gray-800 p-2 text-center placeholder:text-gray-400">
 
+                        <label for="message" class="text-gray-300">Details</label>
+                        <textarea name="" id="" cols="60" rows="7" placeholder="Write your message here"
+                            class="relative rounded-lg bg-gray-800 p-2 text-center text-gray-400 placeholder:text-gray-400"></textarea>
+                    </div>
+                    <div class="flex flex-row gap-4 justify-end w-full col-span-2 mt-1">
+                        <button type="submit" class="relative bg-orange-500 p-2 rounded-lg hover:bg-gray-300">Send</button>
+                        <button type="reset" class="relative bg-gray-800 text-gray-400 p-2 rounded-lg">Reset</button>
+                    </div>
+                </div>
             </form>
         </section>
     </main>
     <footer>
-        <p>asdfasdf</p>
-        <p>asdfsdfa</p>
+        <div class="flex flex-row justify-center">
+            <a href="#inicio"><img src="./assets/logo.png" alt="logo" class="w-32"></a>
+        </div>
+        <div class="mt-10">
+            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 justify-center">
+                <li><a href="#inicio"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Home</a></li>
+                <li><a href="#experience"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Experience</a></li>
+                <li><a href="#education"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Education</a></li>
+                <li><a href="#aboutMe"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">About Me</a></li>
+                <li><a href="#skills"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Skills</a></li>
+                <li><a href="#contact"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mt-10">
+            <ul class="flex flex-row justify-center gap-4">
+                <li><img src="./assets/redes/instagram.svg" alt="Instagram"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+                <li><img src="./assets/redes/linkedin.svg" alt="LinkedIn"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+                <li><img src="./assets/redes/x.svg" alt="X"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+                <li><img src="./assets/tecnologias/github.svg" alt="GitHub"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+            </ul>
+        </div>
+        <div class="flex flex-row items-center justify-center gap-10 mt-10 mb-15">
+            <div class="flex flex-row gap-3">
+                <img src="./assets/mail blanco.svg" alt="mail" class="w-7">
+                <a href="mailto:sergiomtzs1996@gmail.com?subject=Consulta&body=Hola, me gustaría saber más sobre ..."
+                    class="text-gray-300">sergiomtzs1996@gmail.com</a>
+            </div>
+            <div class="flex flex-row gap-3">
+                <img src="./assets/phone blanco.svg" alt="phone" class="w-7">
+                <a href="tel:+34656644312" class="text-gray-300">656644312</a>
+            </div>
+        </div>
     </footer>
     <script>
         const grid = document.getElementById('experience-grid');

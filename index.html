@@ -6,18 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Sergio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style>
-        .scrollbar-none {
-            -ms-overflow-style: none;
-            /* IE y Edge */
-            scrollbar-width: none;
-            /* Firefox */
-        }
-
-        .scrollbar-none::-webkit-scrollbar {
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="./input.css">
 
 </head>
 
@@ -65,7 +54,8 @@
                                 class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Education</a>
                         </li>
                         <li> <a href="#aboutMe"
-                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">About Me</a>
+                                class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">About
+                                Me</a>
                         </li>
                         <li> <a href="#skills"
                                 class="block py-2 pr-4 pl-3 text-gray-300 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:text-orange-500">Skills</a>
@@ -80,7 +70,7 @@
     </header>
     <main>
         <!--Portada-->
-        <section class="flex flex-row justify-between items-center px-20 py-10">
+        <section id="inicio" class="flex flex-row justify-between items-center px-20 py-10">
             <div class="flex flex-col items-start p-8">
                 <div class="text-start">
                     <h6 class="text-gray-500 text-2xl">Hola, soy</h6>
@@ -107,7 +97,8 @@
                     </a>
                 </div>
                 <div class="mt-11 justify-between space-x-13 ms-30 md:ms-20">
-                    <a href="#contact" class="text-white border rounded-lg p-2 bg-orange-500 hover:bg-gray-700">Contrátame</a>
+                    <a href="#contact"
+                        class="text-white border rounded-lg p-2 bg-orange-500 hover:bg-gray-700">Contrátame</a>
                     <a href="./assets/CV Sergio 2025.pdf" download
                         class="text-white border rounded-lg p-2 hover:bg-gray-100 hover:text-orange-500">Download CV</a>
                 </div>
@@ -304,7 +295,7 @@
             <div class="relative border-l border-orange-500 pl-6 ml-4 space-y-10 mt-10">
                 <!-- Evento 1 -->
                 <div class="relative">
-                    <div class="absolute w-4 h-4 bg-orange-500 rounded-full left-[-0.75rem] top-1.5"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500">Educación Secundaria Obligatoria</h3>
@@ -315,8 +306,7 @@
 
                 <!-- Evento 2 -->
                 <div class="relative">
-                    <div class="absolute w-4 h-4 bg-orange-500 rounded-full left-[-0.75rem] top-1.5"><i
-                            class="hidden group-hover:block text-gray-500 ml-30">2016</i></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500 text-center">Bachillerato</h3>
@@ -327,7 +317,7 @@
 
                 <!-- Evento 3 -->
                 <div class="relative">
-                    <div class="absolute w-4 h-4 bg-orange-500 rounded-full left-[-0.75rem] top-1.5"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500 text-center">Grado Superior en Desarrollo de
@@ -338,7 +328,7 @@
                 </div>
                 <!-- Evento 4 -->
                 <div class="relative">
-                    <div class="absolute w-4 h-4 bg-orange-500 rounded-full left-[-0.75rem] top-1.5"></div>
+                    <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt=""></div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
                         <h3 class="text-lg font-semibold text-orange-500 text-center">Grado Superior en Desarrollo de
@@ -388,7 +378,7 @@
                         laboral que me permita desarrollar una vida tranquila y continuar evolucionando en lo que más me
                         apasiona: construir soluciones digitales que generen impacto real.</p>
                     <div class="pt-5 text-center">
-                        <a href="./assets/CV Sergio 2025.pdf" download 
+                        <a href="./assets/CV Sergio 2025.pdf" download
                             class="text-white bg-orange-500 p-2 rounded-lg hover:bg-gray-700 hover:text-orange-500">Download
                             CV</a>
                     </div>
@@ -612,7 +602,8 @@
         <section class="flex flex-col justify-center text-center pt-10">
             <h1 class="text-gray-300 font-bold text-4xl">Proyects</h1>
             <div class="place-items-center mt-10">
-                <img src="./assets/pantallazo eventrandom.png" alt="eventRandom" class="h-65 w-85 brightness-90 rounded-lg drop-shadow-gray-700-x1/50 hover:transform hover:scale-x-110 hover:scale-y-110 duration-500">
+                <img src="./assets/pantallazo eventrandom.png" alt="eventRandom"
+                    class="h-65 w-85 brightness-90 rounded-lg drop-shadow-gray-700-x1/50 hover:transform hover:scale-x-110 hover:scale-y-110 duration-500">
             </div>
         </section>
 
@@ -665,7 +656,7 @@
                             class="relative rounded-lg bg-gray-800 p-2 text-center text-gray-400 placeholder:text-gray-400"></textarea>
                     </div>
                     <div class="flex flex-row gap-4 justify-end w-full col-span-2 mt-1">
-                        <button type="submit" class="relative bg-orange-500 p-2 rounded-lg">Send</button>
+                        <button type="submit" class="relative bg-orange-500 p-2 rounded-lg hover:bg-gray-300">Send</button>
                         <button type="reset" class="relative bg-gray-800 text-gray-400 p-2 rounded-lg">Reset</button>
                     </div>
                 </div>
@@ -673,8 +664,58 @@
         </section>
     </main>
     <footer>
-        <p>asdfasdf</p>
-        <p>asdfsdfa</p>
+        <div class="flex flex-row justify-center">
+            <a href="#inicio"><img src="./assets/logo.png" alt="logo" class="w-32"></a>
+        </div>
+        <div class="mt-10">
+            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 justify-center">
+                <li><a href="#inicio"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Home</a></li>
+                <li><a href="#experience"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Experience</a></li>
+                <li><a href="#education"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Education</a></li>
+                <li><a href="#aboutMe"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">About Me</a></li>
+                <li><a href="#skills"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Skills</a></li>
+                <li><a href="#contact"
+                        class="block py-2 pr-4 pl-3 text-gray-300 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white hover:text-orange-500"
+                        aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mt-10">
+            <ul class="flex flex-row justify-center gap-4">
+                <li><img src="./assets/redes/instagram.svg" alt="Instagram"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+                <li><img src="./assets/redes/linkedin.svg" alt="LinkedIn"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+                <li><img src="./assets/redes/x.svg" alt="X"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+                <li><img src="./assets/tecnologias/github.svg" alt="GitHub"
+                        class="ring-4 rounded-full w-10 bg-gray-800 p-2 hover:w-10.5 hover:transition duration-300">
+                </li>
+            </ul>
+        </div>
+        <div class="flex flex-row items-center justify-center gap-10 mt-10 mb-15">
+            <div class="flex flex-row gap-3">
+                <img src="./assets/mail blanco.svg" alt="mail" class="w-7">
+                <a href="mailto:sergiomtzs1996@gmail.com?subject=Consulta&body=Hola, me gustaría saber más sobre ..."
+                    class="text-gray-300">sergiomtzs1996@gmail.com</a>
+            </div>
+            <div class="flex flex-row gap-3">
+                <img src="./assets/phone blanco.svg" alt="phone" class="w-7">
+                <a href="tel:+34656644312" class="text-gray-300">656644312</a>
+            </div>
+        </div>
     </footer>
     <script>
         const grid = document.getElementById('experience-grid');

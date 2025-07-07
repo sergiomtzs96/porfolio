@@ -16,3 +16,11 @@
     .scrollbar-none::-webkit-scrollbar {
       display: none;
     }
+
+    #habilidades {
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch; /* para suavidad en iOS */
+      scroll-behavior: smooth; /* para suavidad general */
+  }

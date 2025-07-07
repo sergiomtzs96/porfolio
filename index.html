@@ -32,7 +32,7 @@
 
         //Cerrar los menús al hacer clic fuera de ellos
 
-        document.addEventListener('click', function(e) {
+        document.addEventListener('click', function (e) {
             const menu = document.getElementById('mobileMenu');
             const profile = document.getElementById('mobileProfile');
 
@@ -54,8 +54,8 @@
         function changeTheme() {
             const body = document.getElementById('body');
             body.classList.toggle('dark');
-             
-        }        
+
+        }
 
         // Función para alternar la visibilidad de las experiencias
         function toggleExperience(element) {
@@ -64,8 +64,8 @@
                 if (card !== element) {
                     card.querySelectorAll('p, i').forEach(el => el.classList.add('hidden'));
                 }
-            
-                });
+
+            });
             // Alterna la visibilidad de los párrafos e íconos dentro del elemento clicado
             element.querySelectorAll('p, i').forEach(el => el.classList.toggle('hidden'));
         };
@@ -84,8 +84,7 @@
             <!-- Botón para cambiar el tema -->
 
             <button onclick="changeTheme()">
-                <img src="./assets/icons/change-theme.svg" alt="Change Theme" 
-                    class="w-5 absolute left-1 top-1">
+                <img src="./assets/icons/change-theme.svg" alt="Change Theme" class="w-5 absolute left-1 top-1">
             </button>
 
             <!--Logo-->
@@ -218,11 +217,10 @@
                         construir soluciones reales
                     </p>
                 </div>
-                <div id="experience-grid"
-                    class="flex flex-col relative place-items-center mt-10">
-                    <div
-                        class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto" onclick="toggleExperience(this)">
-                        <img src="./assets/empresas/ahorramas.png" alt="Grupo" class="w-32" >
+                <div id="experience-grid" class="flex flex-col relative place-items-center mt-10">
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto"
+                        onclick="toggleExperience(this)">
+                        <img src="./assets/empresas/ahorramas.png" alt="Grupo" class="w-32">
                         <h6 class="text-orange-500 mt-5 group-hover:mt-0">Ahorramás</h6>
                         <i class="hidden group-hover:block text-gray-500 text-0xl">07/2024 - Actualmente</i>
                         <p class="hidden group-hover:block text-gray-400 text-justify overflow-hidden">Como reponedor,
@@ -240,12 +238,13 @@
                             lo que demuestra mi compromiso, autonomía y capacidad de adaptación dentro del entorno
                             laboral.</p>
                     </div>
-                    <div
-                        class="group flex flex-col items-center justify-center text-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto" onclick="toggleExperience(this)">
-                        <img src="./assets/empresas/ctt.png" alt="Grupo" class="w-32" >
+                    <div class="group flex flex-col items-center justify-center text-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto"
+                        onclick="toggleExperience(this)">
+                        <img src="./assets/empresas/ctt.png" alt="Grupo" class="w-32">
                         <h6 class="text-orange-500 mt-4 group-hover:mt-0">CTT</h6>
                         <i class="hidden group-hover:block text-gray-500 text-0xl">03/2024 - 06/2024</i>
-                        <p class="hidden text-gray-400 text-justify overflow-hidden">Durante mi etapa en CTT, trabajé como
+                        <p class="hidden text-gray-400 text-justify overflow-hidden">Durante mi etapa en CTT, trabajé
+                            como
                             repartidor de paquetería en la ciudad de Almería. Mi principal función consistía en la
                             recogida, organización y entrega de paquetes utilizando una furgoneta de empresa, siguiendo
                             rutas diarias planificadas para garantizar la entrega eficiente de los envíos a particulares
@@ -265,12 +264,13 @@
                             en entornos urbanos, y aprendí a gestionar con autonomía las tareas asignadas, manteniendo
                             siempre una actitud profesional y resolutiva frente a los retos diarios del reparto.</p>
                     </div>
-                    <div
-                        class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto" onclick="toggleExperience(this)">
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto"
+                        onclick="toggleExperience(this)">
                         <img src="./assets/empresas/amazon.svg" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Amazon</h6>
                         <i class="hidden group-hover:block text-gray-500 text-0xl">10/2023 - 03-2024</i>
-                        <p class="hidden text-gray-400 text-justify overflow-hidden">En mi puesto como repartidor en Amazon
+                        <p class="hidden text-gray-400 text-justify overflow-hidden">En mi puesto como repartidor en
+                            Amazon
                             Logistics he formado parte de un equipo logístico altamente estructurado, siendo responsable
                             del transporte y entrega de paquetes en la provincia de Almería mediante vehículo asignado.
 
@@ -291,12 +291,13 @@
                             estándares de calidad y servicio al cliente de una empresa líder en logística como Amazon.
                         </p>
                     </div>
-                    <div
-                        class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto" onclick="toggleExperience(this)">
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto"
+                        onclick="toggleExperience(this)">
                         <img src="./assets/empresas/correos.png" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Correos</h6>
                         <i class="hidden group-hover:block text-gray-500 text-0xl">08/2023 - 09/2023</i>
-                        <p class=" hidden text-gray-400 text-justify overflow-hidden">Como repartidor en Correos, empresa
+                        <p class=" hidden text-gray-400 text-justify overflow-hidden">Como repartidor en Correos,
+                            empresa
                             pública referente en el servicio postal en España, he desempeñado tareas de distribución de
                             correspondencia y paquetería ligera por distintas zonas de Almería, utilizando vehículo de
                             empresa (furgoneta).
@@ -316,8 +317,8 @@
                             gestión del trabajo diario, y compromiso con la confidencialidad y la seguridad de la
                             documentación entregada, elementos clave dentro de un servicio público como Correos.</p>
                     </div>
-                    <div
-                        class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto" onclick="toggleExperience(this)">
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto"
+                        onclick="toggleExperience(this)">
                         <img src="./assets/empresas/mrw.png" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">MRW</h6>
                         <i class="hidden group-hover:block text-gray-500 text-0xl">02/2022 - 08/2023</i>
@@ -341,12 +342,13 @@
                             y precisión son claves. Además, la familiaridad con herramientas móviles de seguimiento me
                             permitió integrarme con fluidez en un modelo logístico moderno y altamente digitalizado.</p>
                     </div>
-                    <div
-                        class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto" onclick="toggleExperience(this)">
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-64 mx-auto"
+                        onclick="toggleExperience(this)">
                         <img src="./assets/empresas/amazon.svg" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Amazon</h6>
                         <i class="hidden group-hover:block text-gray-500 text-0xl">06/2021 - 02/2022</i>
-                        <p class="hidden text-gray-400 text-justify overflow-hidden">Mi experiencia laboral en Amazon marcó el
+                        <p class="hidden text-gray-400 text-justify overflow-hidden">Mi experiencia laboral en Amazon
+                            marcó el
                             inicio de mi trayectoria en el ámbito de la logística y distribución de última milla. Este
                             fue mi primer empleo como repartidor, donde aprendí desde cero los procesos esenciales de
                             entrega, el manejo de rutas, y la responsabilidad asociada al uso de una furgoneta asignada.
@@ -382,7 +384,8 @@
                     </div>
                     <div
                         class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
-                        <h3 class="text-lg font-semibold text-orange-500 justify-center">Educación Secundaria Obligatoria</h3>
+                        <h3 class="text-lg font-semibold text-orange-500 justify-center">Educación Secundaria
+                            Obligatoria</h3>
                         <i class="hidden group-hover:block text-gray-500 text-center">2014</i>
                         <i class="text-gray-500">I.E.S. Sierra Nevada</i>
                     </div>
@@ -431,14 +434,14 @@
 
         <section id="aboutMe" class="flex flex-col justify-center text-center pt-10 right-0 left-0">
             <h1 class="text-gray-300 font-bold text-4xl">About Me</h1>
-            <div
-                class="flex flex-col items-center justify-center text-center right-0 left-0 w-full">
+            <div class="flex flex-col items-center justify-center text-center right-0 left-0 w-full">
                 <div>
                     <img src="./assets/sergio.png" alt="Sergio"
                         class="w-full max-w-64 object-cover mask-radial-at-center mark-radial-from-50% mask-radial-to-70% brightness-200 hover:scale-200 hover:transition duration-300">
                 </div>
                 <div class="relative text-center ">
-                    <p class="text-gray-400 text-justify max-w-sm mx-auto p-4">Mi nombre es Sergio Martínez y vivo en Sevilla la Nueva,
+                    <p class="text-gray-400 text-justify max-w-sm mx-auto p-4">Mi nombre es Sergio Martínez y vivo en
+                        Sevilla la Nueva,
                         Madrid. Soy una persona creativa, trabajadora y con una gran pasión por la tecnología. Siempre
                         he tenido curiosidad por cómo funcionan las cosas, y fue esa misma curiosidad la que me llevó al
                         mundo de la programación, donde he encontrado no solo una vocación, sino un camino lleno de
@@ -719,7 +722,7 @@
                                     class="rounded-lg bg-gray-800 p-2 text-center placeholder:text-gray-400 ">
                             </div>
                         </div>
-                        
+
                         <label for="services" class="text-gray-300">Service of Interest</label>
                         <select name="services" id="services"
                             class="rounded-lg bg-gray-800 p-2 text-center text-gray-400">
@@ -830,26 +833,50 @@
         });
     </script>
     <script>
-        const cont = document.getElementById('habilidades');
-        const scrollLeftBtn = document.getElementById('scrollLeftBtn');
-        const scrollRightBtn = document.getElementById('scrollRightBtn');
+        window.addEventListener('load', () => {
+            const container = document.getElementById('habilidades');
+            const scrollLeftBtn = document.getElementById('scrollLeftBtn');
+            const scrollRightBtn = document.getElementById('scrollRightBtn');
 
-        let scrollInterval;
+            let scrollInterval;
 
-        scrollLeftBtn.addEventListener(`mouseenter`, () => {
-            scrollInterval = setInterval(() => {
-                cont.scrollBy({ left: -10, behavior: 'smooth' });
-            }, 50);
+            scrollLeftBtn.addEventListener(`mouseenter`, () => {
+                scrollInterval = setInterval(() => {
+                    cont.scrollBy({ left: -15, behavior: 'smooth' });
+                }, 15);
+            });
+
+            scrollRightBtn.addEventListener(`mouseenter`, () => {
+                scrollInterval = setInterval(() => {
+                    cont.scrollBy({ left: 15, behavior: 'smooth' });
+                }, 15);
+            });
+
+            scrollLeftBtn.addEventListener(`mouseleave`, () => clearInterval(scrollInterval));
+            scrollRightBtn.addEventListener(`mouseleave`, () => clearInterval(scrollInterval));
+
+
+            function isTouchDevice() {
+                return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+            }
+
+
+            // Asegura que el scroll horizontal funcione
+            if (container) {
+                container.style.overflowX = 'auto';
+                container.style.overflowY = 'hidden';
+                container.style.whiteSpace = 'nowrap';
+                container.style.webkitOverflowScrolling = 'touch';
+                container.style.scrollBehavior = 'smooth';
+                container.scrollLeft = 0;
+            }
+
+            // Si es un dispositivo táctil, oculta los botones con la clase 'hidden'
+            if (isTouchDevice()) {
+                scrollLeftBtn?.classList.add('hidden');
+                scrollRightBtn?.classList.add('hidden');
+            }
         });
-
-        scrollRightBtn.addEventListener(`mouseenter`, () => {
-            scrollInterval = setInterval(() => {
-                cont.scrollBy({ left: 10, behavior: 'smooth' });
-            }, 50);
-        });
-
-        scrollLeftBtn.addEventListener(`mouseleave`, () => clearInterval(scrollInterval));
-        scrollRightBtn.addEventListener(`mouseleave`, () => clearInterval(scrollInterval));
     </script>
 
 

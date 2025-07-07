@@ -33,7 +33,6 @@
         //Cerrar los menús al hacer clic fuera de ellos
 
         document.addEventListener('click', function (e) {
-        document.addEventListener('click', function (e) {
             const menu = document.getElementById('mobileMenu');
             const profile = document.getElementById('mobileProfile');
 
@@ -55,9 +54,6 @@
         function changeTheme() {
             const body = document.getElementById('body');
             body.classList.toggle('dark');
-
-        }
-
         }
 
         // Función para alternar la visibilidad de las experiencias
@@ -67,13 +63,10 @@
                 if (card !== element) {
                     card.querySelectorAll('p, i').forEach(el => el.classList.add('hidden'));
                 }
-
-            });
-
             });
             // Alterna la visibilidad de los párrafos e íconos dentro del elemento clicado
             element.querySelectorAll('p, i').forEach(el => el.classList.toggle('hidden'));
-        };
+        }
 
     </script>
 
@@ -89,7 +82,6 @@
             <!-- Botón para cambiar el tema -->
 
             <button onclick="changeTheme()">
-                <img src="./assets/icons/change-theme.svg" alt="Change Theme" class="w-5 absolute left-1 top-1">
                 <img src="./assets/icons/change-theme.svg" alt="Change Theme" class="w-5 absolute left-1 top-1">
             </button>
 
@@ -157,17 +149,17 @@
     </header>
     <main>
         <!--Portada-->
-        <section id="inicio" class="w-full flex flex-col justify-center items-center px-2 sm:px-8 lg:px-20 py-10">
-            <div class="flex flex-col items-center p-8 lg:grid lg:grid-cols-3 2xl:grid 2xl:grid-cols-4">
+        <section id="inicio" class="w-auto flex flex-col justify-center items-center px-2 sm:px-8 lg:px-20 py-10">
+            <div class="w-auto flex flex-col items-center p-8 lg:grid lg:grid-cols-4">
 
-                <div class="text-center lg:cols-span-2 lg:row-span-2 2xl:cols-span-2 2xl:row-span-2">
+                <div class="text-center lg:col-span-2 lg:col-start-1 lg:col-end-2 lg:row-span-2 lg:row-span-2">
                     <h6 class="text-gray-500 text-2xl">Hola, soy</h6>
                     <h2 class="text-gray-400 text-3xl">Sergio Martínez</h2>
 
                     <h1 class="text-orange-500 text-3xl">Desarrollador Full Stack</h1>
                 </div>
                 <div
-                    class="relative flex items-center justify-center mt-8 lg:col lg:col-span-1 lg:col-start-1 lg:row-span-1 2xl:col-span-1 2xl:col-start-1 2xl:row-span-1 ">
+                    class="relative flex items-center justify-center mt-8 lg:col lg:cols-span-2 lg:col-start-1 lg:row-span-1 2xl:col-span-1 2xl:col-start-1 2xl:row-span-1 ">
 
                     <a href=" https://instagram.com" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/redes/instagram.svg" alt="Instagram"
@@ -187,7 +179,7 @@
                     </a>
                 </div>
                 <div></div>
-                <div class="relative items-center justify-center lg:col lg:col-span-2 lg:row-span-3 lg:col-start-2 lg:row-start-1 lg:ml-30 2xl:col-span-2 2xl:row-span-3 2xl:col-start-3 2xl:row-start-1">
+                <div class="relative items-center justify-center lg:col-span-2 lg:row-span-3 lg:col-start-3 lg:row-start-1 lg:text-center lg:mx-auto lg:mr-20">
                     <div class="w-full max-w-[350px] h-auto flex items-center justify-center mx-auto">
                         <img src="./assets/sergio.png" alt="Sergio"
                             class="w-full max-w-64 object-cover mask-radial-at-center mark-radial-from-50% mask-radial-to-70% brightness-200 hover:scale-200 hover:transition duration-300">
@@ -196,16 +188,16 @@
 
             </div>
 
-            <div class="lg:grid lg:grid-cols-2 2xl:grid-cols-4">
+            <div class="w-full p-8 lg:grid lg:grid-cols-4">
                 <div
-                    class="relative items-center mt-10 justify-between space-x-10 lg:col-span-1 lg:col-start-1 lg:row-start-1 lg:text-start 2xl:col-span-2">
+                    class="w-auto relative flex items-center justify-center mt-10 justify-between space-x-10 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:text-center lg:mx-auto lg:block lg:absolute">
                     <a href="#contact"
                         class="text-white border rounded-lg p-2 bg-orange-500 hover:bg-gray-700">Contrátame</a>
                     <a href="./assets/CV Sergio 2025.pdf" download
                         class="text-white border rounded-lg p-2 hover:bg-gray-100 hover:text-orange-500">Download
                         CV</a>
                 </div>
-                <div class="flex flex-row mt-10 bg-stone-900 p-4 rounded-lg lg:col-span-1 lg:col-start-2 lg:row-start-1 lg:justify-center 2xl:col-span-2 2xl:col-start-3 2xl:row-start-1 2xl:text-center 2xl:ml-45">
+                <div class="flex text-center justify-center mt-10 bg-stone-900 p-4 rounded-lg lg:col-span-2 lg:col-start-3 lg:row-start-1 lg:justify-center lg:text-center lg:block-inline lg:mx-auto sm:w-auto">
                     <div class="border-r-2 border-gray-200 p-4">
                         <h6 class="text-orange-500 font-bold">5+</h6>
                         <h5 class="text-gray-400">Experience</h5>

@@ -152,16 +152,16 @@
     <main>
         <!--Portada-->
         <section id="inicio" class="w-full flex flex-col justify-center items-center px-2 sm:px-8 lg:px-20 py-10">
-            <div class="flex flex-col items-center p-8 lg:grid lg:grid-cols-3">
+            <div class="flex flex-col items-center p-8 lg:grid lg:grid-cols-3 2xl:grid 2xl:grid-cols-4">
 
-                <div class="text-center lg:cols-span-2 lg:row-span-2">
+                <div class="text-center lg:cols-span-2 lg:row-span-2 2xl:cols-span-2 2xl:row-span-2">
                     <h6 class="text-gray-500 text-2xl">Hola, soy</h6>
                     <h2 class="text-gray-400 text-3xl">Sergio Martínez</h2>
 
                     <h1 class="text-orange-500 text-3xl">Desarrollador Full Stack</h1>
                 </div>
                 <div
-                    class="relative flex items-center justify-center mt-8 lg:col lg:col-span-1 lg:col-start-1 lg:row-span-1 ">
+                    class="relative flex items-center justify-center mt-8 lg:col lg:col-span-1 lg:col-start-1 lg:row-span-1 2xl:col-span-1 2xl:col-start-1 2xl:row-span-1 ">
 
                     <a href=" https://instagram.com" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/redes/instagram.svg" alt="Instagram"
@@ -181,7 +181,7 @@
                     </a>
                 </div>
                 <div></div>
-                <div class="relative items-center justify-center lg:col lg:col-span-2 lg:row-span-3 lg:col-start-2 lg:row-start-1 lg:ml-30 ">
+                <div class="relative items-center justify-center lg:col lg:col-span-2 lg:row-span-3 lg:col-start-2 lg:row-start-1 lg:ml-30 2xl:col-span-2 2xl:row-span-3 2xl:col-start-3 2xl:row-start-1">
                     <div class="w-full max-w-[350px] h-auto flex items-center justify-center mx-auto">
                         <img src="./assets/sergio.png" alt="Sergio"
                             class="w-full max-w-64 object-cover mask-radial-at-center mark-radial-from-50% mask-radial-to-70% brightness-200 hover:scale-200 hover:transition duration-300">
@@ -190,16 +190,16 @@
 
             </div>
 
-            <div class="lg:grid lg:grid-cols-2">
+            <div class="lg:grid lg:grid-cols-2 2xl:grid-cols-4">
                 <div
-                    class="relative items-center mt-10 justify-between space-x-10 lg:col-span-1 lg:col-start-1 lg:row-start-1">
+                    class="relative items-center mt-10 justify-between space-x-10 lg:col-span-1 lg:col-start-1 lg:row-start-1 lg:text-start 2xl:col-span-2">
                     <a href="#contact"
                         class="text-white border rounded-lg p-2 bg-orange-500 hover:bg-gray-700">Contrátame</a>
                     <a href="./assets/CV Sergio 2025.pdf" download
                         class="text-white border rounded-lg p-2 hover:bg-gray-100 hover:text-orange-500">Download
                         CV</a>
                 </div>
-                <div class="flex flex-row mt-10 bg-stone-900 p-4 rounded-lg lg:col-span-1 lg:col-start-2 lg:row-start-1 lg:justify-start">
+                <div class="flex flex-row mt-10 bg-stone-900 p-4 rounded-lg lg:col-span-1 lg:col-start-2 lg:row-start-1 lg:justify-center 2xl:col-span-2 2xl:col-start-3 2xl:row-start-1 2xl:text-center 2xl:ml-45">
                     <div class="border-r-2 border-gray-200 p-4">
                         <h6 class="text-orange-500 font-bold">5+</h6>
                         <h5 class="text-gray-400">Experience</h5>
@@ -228,7 +228,7 @@
                     </p>
                 </div>
                 <div id="experience-grid" class="flex flex-col relative place-items-center mt-10 ps-5 pe-5">
-                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto"
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto lg:w-200"
                         onclick="toggleExperience(this)">
                         <img src="./assets/empresas/ahorramas.png" alt="Grupo" class="w-32">
                         <h6 class="text-orange-500 mt-5 group-hover:mt-0">Ahorramás</h6>
@@ -248,7 +248,7 @@
                             lo que demuestra mi compromiso, autonomía y capacidad de adaptación dentro del entorno
                             laboral.</p>
                     </div>
-                    <div class="group flex flex-col items-center justify-center text-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto"
+                    <div class="group flex flex-col items-center justify-center text-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto lg:w-200"
                         onclick="toggleExperience(this)">
                         <img src="./assets/empresas/ctt.png" alt="Grupo" class="w-32">
                         <h6 class="text-orange-500 mt-4 group-hover:mt-0">CTT</h6>
@@ -274,7 +274,7 @@
                             en entornos urbanos, y aprendí a gestionar con autonomía las tareas asignadas, manteniendo
                             siempre una actitud profesional y resolutiva frente a los retos diarios del reparto.</p>
                     </div>
-                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto"
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto lg:w-200"
                         onclick="toggleExperience(this)">
                         <img src="./assets/empresas/amazon.svg" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Amazon</h6>
@@ -301,7 +301,7 @@
                             estándares de calidad y servicio al cliente de una empresa líder en logística como Amazon.
                         </p>
                     </div>
-                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto"
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto lg:w-200"
                         onclick="toggleExperience(this)">
                         <img src="./assets/empresas/correos.png" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Correos</h6>
@@ -327,7 +327,7 @@
                             gestión del trabajo diario, y compromiso con la confidencialidad y la seguridad de la
                             documentación entregada, elementos clave dentro de un servicio público como Correos.</p>
                     </div>
-                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto"
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto lg:w-200"
                         onclick="toggleExperience(this)">
                         <img src="./assets/empresas/mrw.png" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">MRW</h6>
@@ -352,7 +352,7 @@
                             y precisión son claves. Además, la familiaridad con herramientas móviles de seguimiento me
                             permitió integrarme con fluidez en un modelo logístico moderno y altamente digitalizado.</p>
                     </div>
-                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto"
+                    <div class="group flex flex-col items-center mt-6 border-1 border-orange-500 p-4 rounded-lg w-full max-w-full mx-auto lg:w-200"
                         onclick="toggleExperience(this)">
                         <img src="./assets/empresas/amazon.svg" alt="Grupo" class="w-16">
                         <h6 class="text-orange-500">Amazon</h6>
@@ -393,7 +393,7 @@
                     <div class="absolute w-10 h-10 left-[-0.75rem] top-1.5"><img src="./assets/education.svg" alt="">
                     </div>
                     <div
-                        class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300 ">
+                        class="group border-1 border-gray-950 rounded-lg p-2 ml-30 mr-30 items-center place-items-center hover:bg-gray-800 hover:transform hover:scale-x-110 hover:scale-y-110 hover:transition duration-300">
                         <h3 class="text-lg font-semibold text-orange-500 justify-center">Educación Secundaria
                             Obligatoria</h3>
                         <i class="hidden group-hover:block text-gray-500 text-center">2014</i>
@@ -494,7 +494,7 @@
                 <img src="./assets/left.svg" alt="left" class="w-5">
             </button>
             <div id="habilidades"
-                class="flex gap-8 mt-10 p-8 rounded-lg justify-start w-90 mx-auto overflow-x-auto snap-mandatory scroll-smooth scrollbar-none">
+                class="flex gap-8 mt-10 p-8 rounded-lg justify-start w-90 mx-auto overflow-x-auto snap-mandatory scroll-smooth scrollbar-none lg:w-230">
                 <!--Figma-->
                 <div class="flex flex-col items-center relative min-w-[140px] snap-start">
                     <svg class="w-20 h-20 transform -rotate-90" viewBox="0 0 36 36">
@@ -712,7 +712,7 @@
         <section id="contact" class="w-full flex flex-col relative justify-center text-center pt-10">
             <h1 class="text-gray-300 font-bold text-4xl">Contact me</h1>
             <p class="text-gray-400">Cultivating Connections: Reach Out And Connect With Me</p>
-            <form action="" class="flex flex-col place-items-center relative">
+            <form action="" class="flex flex-col place-items-center relative lg:ml-30 lg:mr-30">
                 <div class="relative flex flex-col mt-10 w-full p-4 gap-">
                     <div class="relative w-full flex flex-col gap-2 justify-center w-full">
                         <label for="name" class="text-gray-300">Name</label>
